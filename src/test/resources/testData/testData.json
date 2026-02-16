@@ -1,0 +1,19 @@
+{
+  "loginData": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "type": "valid"
+    },
+    {
+      "username": "invalidUser",
+      "password": "invalidPassword",
+      "type": "invalid"
+    },
+    {
+      "username": "standard_user",
+      "password": "",
+      "type": "emptyPassword"
+    }
+  ]
+}

@@ -3,7 +3,7 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 //Website: https://www.saucedemo.com/
 import org.openqa.selenium.By;
-public class LoginPage {
+public class P01_LoginPage {
     WebDriver driver;
 
     //locators
@@ -14,7 +14,7 @@ public class LoginPage {
     final private By errorMessage = By.cssSelector("h3[data-test='error']");
 
     //constructor
-    public LoginPage(WebDriver driver) {
+    public P01_LoginPage(WebDriver driver) {
         this.driver = driver;
     }
 
